@@ -25,9 +25,23 @@ git config --global user.email
 git config --list
 git help <verb>
 rm -rf .git
-touch .gitignore add files you do not want to track
+touch .gitignore "add files you do not want to track"
+git add -A "adds all files in directory"
+git reset <file>"removes staging files" just reset removes all
+git log "shows commit made"
 
-
+#using remote repsitory 
+git remote add origin https://github.com/calvinjrcun77/My-TerraformProjects.git
+git clone <url> <.directory>
+git remote -v
+git branch -a
+git diff
+git pull origin master
+git push origin master
+git merge --allow-unrelated-histories
+git checkout <branch-name>
+git fetch <remote-name> "Fetch the changes from the remote repository using the git fetch command."
+ git update-ref -d MERGE_HEAD
 
 
 Git commands for creating a new repository, adding the files to the repository, committing the changes, setting up a remote origin, and pushing the changes to the remote repository. Here's a breakdown of each command and what it does:
